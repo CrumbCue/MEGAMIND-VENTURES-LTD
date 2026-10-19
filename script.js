@@ -29,6 +29,6 @@ const WHATSAPP = '254704493312';
 document.getElementById('quote-form').addEventListener('submit', e => {
   e.preventDefault();
   const f = new FormData(e.target);
-  const msg = `Hello Megamind Ventures, I would like a quote.\nName: ${f.get('name')}\nContact: ${f.get('contact')}\nService: ${f.get('service')}\nDetails: ${f.get('details')}`;
+  const msg = `Hello Megamind Agencies, I would like a quote.\nName: ${f.get('name')}\nContact: ${f.get('contact')}\nService: ${f.get('service')}\nDetails: ${f.get('details')}`;
   window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
 });

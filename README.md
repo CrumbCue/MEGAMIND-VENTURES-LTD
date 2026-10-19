@@ -1,4 +1,4 @@
-# Megamind Ventures Ltd website
+# Megamind Agencies Ltd website
 
 Static site (HTML, CSS, JS). No build step.
 
@@ -6,7 +6,7 @@ Static site (HTML, CSS, JS). No build step.
 - `index.html` - all page content
 - `style.css` - colours and fonts are at the top (`:root`)
 - `script.js` - mobile menu, hero slideshow and WhatsApp quote form (set `WHATSAPP`)
-- `assets/logo.png`, `assets/favicon.png` - brand files
+- `assets/logo.png` (for dark backgrounds), `assets/logo-on-white.png` (for white backgrounds), `assets/favicon.png`
 - `assets/clients/` - client logos
 - `assets/projects/` - project photos, one folder per service:
   `billboards`, `vehicle-branding`, `wall-branding`, `led-signage`, `event-branding`

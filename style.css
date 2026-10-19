@@ -23,7 +23,7 @@ em{font-style:italic;color:var(--red)}
 
 /* header */
 .bar{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;background:var(--bar);color:var(--white);padding:.15rem clamp(1.25rem,4vw,3rem);border-bottom:2px solid var(--red)}
-.logo img{height:52px;width:auto;display:block}
+.logo img{height:56px;width:auto;display:block}
 nav{display:flex;gap:1.9rem;align-items:center}
 nav a{text-decoration:none;font-size:.74rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.72);transition:color .2s}
 nav a:hover{color:var(--white)}

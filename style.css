@@ -94,6 +94,8 @@ figcaption{padding:.7rem 0 0;font-size:.72rem;font-weight:600;letter-spacing:.16
 .logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
 .logos div{position:relative;background:var(--tile,#fff);aspect-ratio:3/2;overflow:hidden}
 .logos img{position:absolute;inset:1rem;width:calc(100% - 2rem);height:calc(100% - 2rem);object-fit:contain;display:block}
+.logos .named img{inset:.7rem .7rem 2.2rem;width:calc(100% - 1.4rem);height:calc(100% - 2.9rem)}
+.logos .named span{position:absolute;left:0;right:0;bottom:.6rem;text-align:center;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#1b5c98}
 
 /* quote */
 .quote{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,6rem);align-items:start}
